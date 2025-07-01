@@ -12,6 +12,7 @@
         <module>small-spring-step-01</module>
         <module>small-spring-step-02</module>
         <module>small-spring-step-03</module>
+        <module>small-spring-step-04</module>
     </modules>
 
     <properties>
@@ -26,6 +27,12 @@
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.16</version> <!-- 选用最新稳定版本 -->
         </dependency>
     </dependencies>
 
